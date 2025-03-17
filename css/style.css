@@ -1,0 +1,183 @@
+/* Reset CSS by Eric Meyer http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd,
+  ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+  display: block;
+}
+
+body
+{
+  line-height: 1;
+}
+
+ol, ul
+{
+  list-style: none;
+}
+
+blockquote, q
+{
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after
+{
+  content: '';
+  content: none;
+}
+
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html { 
+box-sizing:border-box;
+}
+*, *::before, *::after{
+    box-sizing:inherit;
+}
+body {
+    font-family: Mulish, sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color:  #272525;
+
+}
+.wrapper_screen1{
+  background: linear-gradient(70deg, #9796F0, #FBC7D4);
+}
+.screen1 {
+  background : url('/images/twogirls.png') no-repeat right bottom;
+  height: 750px
+}
+.header  {
+    padding: 20px 8% 0 8%;
+}
+.header_logo-link img {
+    width: 25%
+}
+.menu {
+  height:100px;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 8%;
+  background-color:  #FAFBFD70;
+
+}
+
+.menu_nav {
+  float: left;
+  height: 100px;
+
+  
+}
+.menu_nav_item {
+    font-size: 16px;
+    font-weight: 600;
+    display:inline-block;
+    list-style-type:none;
+    padding-right: 30px;
+    line-height: 100px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.menu_link {
+  text-decoration: none;
+  color: #272525;
+
+}
+
+.menu_nav_item:hover {
+  background: url('/images/Rectangle\ 16.png')no-repeat top center;
+}
+.menu_nav_item:hover .menu_link {
+  color: white;
+  box-shadow: 0px 8px 8px -4px #1A202C0A;
+  box-shadow: 0px 16px 20px -4px #1A202C1A;
+}
+.menu_baner { 
+  float: right;
+  background: url('/images/banner.png') no-repeat right top;
+  height: 100px;
+ 
+}
+.menu_baner p {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color:  #3C336C;
+  margin-right: 280px;
+  line-height: 100px;
+}
+. .clearfix:after { content: "."; visibility: hidden; display: block;
+  height: 0; clear: both }
+
+.screen1_content {
+  width: 100%;
+  
+  
+}
+.screen1_text {
+  padding: 50px 40% 0 8%
+}
+.screen1_text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 48px;
+  color:  #272525;
+  line-height: 100%;
+  letter-spacing: 4%;
+
+}
+.screen1_text p {
+  font-weight: 400;
+  font-size: 18px;
+  color:  #272525;
+  line-height: 130%;
+  letter-spacing: 6.5%;
+  margin-top: 10px
+}
+.preferences{
+  padding: 40px 30% 0 8%
+} 
+.preference_item {
+  width: 240px;
+  height: 150px;
+  background: url('/images/circle.png') no-repeat top center;
+  display: inline-block;
+  float: left
+}
+.preference_item p {
+  font-weight: 600;
+  font-size: 24px;
+  color:  #272525;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 100px
+}
+.preference_item p span {
+  font-weight: 800;
+  text-transform: uppercase;
+}
