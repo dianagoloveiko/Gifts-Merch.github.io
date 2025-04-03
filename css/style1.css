@@ -51,9 +51,14 @@ body {
   width: 100%;
   margin: 0;
   padding: 0 0 0 100px;
-  background-color: #FAFBFD70; }
+  background-color: #FAFBFD70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .menu nav {
-    float: left;
     height: 100px; }
     .menu nav .menu_nav_item {
       font-size: 16px;
@@ -76,15 +81,14 @@ body {
     .menu nav .menu_nav_item:hover {
       background: url("/images/Rectangle 16.png") no-repeat top center; }
   .menu .menu_baner {
-    float: right;
-    background: url("/images/banner.png") no-repeat right top;
+    background: url("/images/banner.png") no-repeat 90% top;
     height: 100px; }
     .menu .menu_baner p {
       text-transform: uppercase;
       font-weight: 900;
       font-size: 20px;
       color: #3C336C;
-      margin-right: 240px;
+      margin-right: 90px;
       line-height: 100px; }
 
 .screen1_content {
@@ -170,10 +174,15 @@ body {
         text-decoration: none;
         color: #272525; }
   .screen2 .screen2_2 {
-    padding: 20px 100px 0 100px; }
-    .screen2 .screen2_2 .shoppers figure {
-      width: 70%;
-      float: left; }
+    padding: 20px 100px 0 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .screen2 .screen2_2 .shoppers {
+      width: 68%; }
       .screen2 .screen2_2 .shoppers figure img {
         width: 100%; }
       .screen2 .screen2_2 .shoppers figure figcaption {
@@ -190,12 +199,24 @@ body {
           color: #272525; }
     .screen2 .screen2_2 .popular {
       width: 30%;
-      margin-left: 71%; }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
       .screen2 .screen2_2 .popular .cups {
         width: 100%; }
+      .screen2 .screen2_2 .popular .thermo-t-shirt {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
       .screen2 .screen2_2 .popular .thermo, .screen2 .screen2_2 .popular .t-shirt {
-        width: 49%;
-        padding-top: 12px; }
+        width: 100%; }
 
 .screen3 {
   background-image: url("/images/svg/Rectangle88.svg");
