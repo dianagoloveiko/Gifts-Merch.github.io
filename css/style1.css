@@ -79,7 +79,7 @@ body {
       -webkit-box-shadow: 0px 16px 20px -4px #1A202C1A;
               box-shadow: 0px 16px 20px -4px #1A202C1A; }
     .menu nav .menu_nav_item:hover {
-      background: url("/images/Rectangle 16.png") no-repeat top center; }
+      background: url("./images/Rectangle 16.png") no-repeat top center; }
   .menu .menu_baner {
     background: url("./images/banner.png") no-repeat 90% top;
     height: 100px; }
