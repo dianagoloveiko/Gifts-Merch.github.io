@@ -53,9 +53,10 @@ body {
     background-color:  #FAFBFD70;
     display: flex;
     justify-content: space-between;
+    
     nav {
-        
         height: 100px;
+        ul { text-align: center;
         .menu_nav_item {
             font-size: $small-text;
             font-weight: 600;
@@ -65,11 +66,43 @@ body {
             line-height: 100px;
             border-radius: 6px;
             text-align: center;
+            position: relative;
+              
+              
             
             .menu_link {
                 text-decoration: none;
                 color: $black;
               }
+            
+        }
+        .list_goods {
+          .menu_level2 {width: 150px; display:none; 
+            
+          }
+        }
+        .list_goods:hover .menu_level2 {
+          display:block; 
+          position: absolute; 
+          right: 10%; 
+          bottom: -300%; 
+          z-index: 3;
+         list-style-type: none; 
+         background-color: $black;
+         text-align: left;
+         border-radius: 5px;
+         li {
+          font-family: $f-family;
+          font-weight: 500;
+          font-size: $text;
+          line-height: 105%;
+          letter-spacing: 0%;
+          color:white;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+         }
+         
         }
         .menu_nav_item:hover .menu_link {
             color: white;
@@ -77,7 +110,9 @@ body {
             box-shadow: 0px 16px 20px -4px #1A202C1A;}
             .menu_nav_item:hover {
                 background: url('/images/Rectangle16.png')no-repeat top center; }
-    }
+            }
+              }
+
     .menu_baner { 
         
         background: url('/images/banner.png') no-repeat 90% top;
@@ -330,4 +365,39 @@ color: $gray;
     }
     }
   }
- 
+  .screen4 {
+    padding: 20px 100px 0 0;
+    display: flex;
+    justify-content: space-between;
+      .img_sweaters {
+        width: 50%;
+        background-image: url('/images/svg/Ellipse26.svg');  
+        background-repeat:  no-repeat;
+        background-position: 10% top;
+        background-size: 30%;
+        img {width: 100%;
+        padding: 60px 10px 10px 95px;}
+      }
+      .screen4_content {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        h3 {
+          font-family: $f-family;
+          font-weight: 700;
+          font-size: $title;
+          line-height: 120%;
+          letter-spacing: 0%;
+        }
+        p {
+          font-family: $f-family;
+          font-weight: 400;
+          font-size: $text;
+          line-height: 130%;
+          letter-spacing: 6.5%;
+          color: $gray;
+          padding-top: 20px;
+        }
+      }
+  }
