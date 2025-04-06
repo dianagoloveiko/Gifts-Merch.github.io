@@ -369,14 +369,16 @@ color: $gray;
     padding: 20px 100px 0 0;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
       .img_sweaters {
         width: 50%;
-        background-image: url('/images/svg/Ellipse26.svg');  
-        background-repeat:  no-repeat;
-        background-position: 10% top;
+        
+        background-image: url('/images/svg/Ellipse26.svg'), url('/images/svg/Ellipse27.svg');  
+        background-repeat:  no-repeat, no-repeat;
+        background-position: 10% top, 105% 115%;
         background-size: 30%;
         img {width: 100%;
-        padding: 60px 10px 10px 95px;}
+        padding: 60px 10px 30px 95px;}
       }
       .screen4_content {
         width: 49%;
@@ -400,4 +402,85 @@ color: $gray;
           padding-top: 20px;
         }
       }
+  }
+  .screen5 {
+    background-image: url('/images/svg/bgscreen5.svg');
+    background-repeat: no-repeat;
+    background-position:  left top;
+    background-size: cover;
+    
+    .screen5_content {
+      padding: 150px 100px 150px 100px;
+      display: flex;
+      flex-direction: column;
+      background-image: url('/images/svg/bg5lamp.svg'), url('/images/svg/bg5rocket1.svg'), url('/images/svg/bg5rocket2.svg'), url('/images/svg/bgcurve.svg');
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-position: 75% top, 45% 40%, 95% 5%, 50% 65%;
+      .screen5_text1 {
+        width: 40%;
+        margin-bottom: 60px;
+        h3 {
+          font-family: $f-family;
+          font-weight: 700;
+          font-size: $title;
+          line-height: 130%;
+          letter-spacing: 4%;
+           span {
+            text-transform: uppercase;
+           }
+        }
+        p {
+          font-family: $f-family;
+          font-weight: 400;
+          font-size: $text;
+          line-height: 130%;
+          letter-spacing: 6.5%;
+          color: $gray;
+        }
+      }
+      .screen5_text2 {
+        width: 40%;
+        padding-bottom: 40px;
+        p {
+          font-family: $f-family;
+          font-weight: 600;
+          font-size: $small-title;
+          line-height: 100%;
+          letter-spacing: 0%;
+
+        }
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+       input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background: rgba(255, 255, 255, 0);
+        width: 300px;
+        height: 23px;
+        font-family: $f-family;
+        font-weight: 400;
+        font-size: $small-text;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: $gray;
+
+        
+       }
+       input .button {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none !important;
+        background: #1FAB8A !important;
+        width: 280px !important;
+        height: 60px !important;
+        border-radius: 5px !important;
+
+       }
+      }
+
+    }
   }

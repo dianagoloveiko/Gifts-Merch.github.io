@@ -328,16 +328,19 @@ body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
   .screen4 .img_sweaters {
     width: 50%;
-    background-image: url("/images/svg/Ellipse26.svg");
-    background-repeat: no-repeat;
-    background-position: 10% top;
+    background-image: url("/images/svg/Ellipse26.svg"), url("/images/svg/Ellipse27.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 10% top, 105% 115%;
     background-size: 30%; }
     .screen4 .img_sweaters img {
       width: 100%;
-      padding: 60px 10px 10px 95px; }
+      padding: 60px 10px 30px 95px; }
   .screen4 .screen4_content {
     width: 49%;
     display: -webkit-box;
@@ -362,5 +365,79 @@ body {
       letter-spacing: 6.5%;
       color: #454747;
       padding-top: 20px; }
+
+.screen5 {
+  background-image: url("/images/svg/bgscreen5.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover; }
+  .screen5 .screen5_content {
+    padding: 150px 100px 150px 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url("/images/svg/bg5lamp.svg"), url("/images/svg/bg5rocket1.svg"), url("/images/svg/bg5rocket2.svg"), url("/images/svg/bgcurve.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 75% top, 45% 40%, 95% 5%, 50% 65%; }
+    .screen5 .screen5_content .screen5_text1 {
+      width: 40%;
+      margin-bottom: 60px; }
+      .screen5 .screen5_content .screen5_text1 h3 {
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+        letter-spacing: 4%; }
+        .screen5 .screen5_content .screen5_text1 h3 span {
+          text-transform: uppercase; }
+      .screen5 .screen5_content .screen5_text1 p {
+        font-family: Mulish, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: 6.5%;
+        color: #454747; }
+    .screen5 .screen5_content .screen5_text2 {
+      width: 40%;
+      padding-bottom: 40px; }
+      .screen5 .screen5_content .screen5_text2 p {
+        font-family: Mulish, sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%; }
+    .screen5 .screen5_content form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .screen5 .screen5_content form input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background: rgba(255, 255, 255, 0);
+        width: 300px;
+        height: 23px;
+        font-family: Mulish, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #454747; }
+      .screen5 .screen5_content form input .button {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none !important;
+        background: #1FAB8A !important;
+        width: 280px !important;
+        height: 60px !important;
+        border-radius: 5px !important; }
 
 /*# sourceMappingURL=style1.css.map */
