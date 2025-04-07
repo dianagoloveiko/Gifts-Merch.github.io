@@ -38,7 +38,7 @@ body {
   background: linear-gradient(70deg, #9796F0, #FBC7D4); }
 
 .screen1 {
-  background: url("./images/twogirls.png") no-repeat right bottom;
+  background: url("../images/twogirls.png") no-repeat right bottom;
   height: 750px; }
 
 .header {
@@ -105,9 +105,9 @@ body {
         -webkit-box-shadow: 0px 16px 20px -4px #1A202C1A;
                 box-shadow: 0px 16px 20px -4px #1A202C1A; }
       .menu nav ul .menu_nav_item:hover {
-        background: url("./images/Rectangle16.png") no-repeat top center; }
+        background: url("../images/Rectangle16.png") no-repeat top center; }
   .menu .menu_baner {
-    background: url("./images/banner.png") no-repeat 90% top;
+    background: url("../images/banner.png") no-repeat 90% top;
     height: 100px; }
     .menu .menu_baner p {
       text-transform: uppercase;
@@ -140,7 +140,7 @@ body {
     .screen1_content .preferences .preference_item {
       width: 240px;
       height: 150px;
-      background: url("./images/circle.png") no-repeat top center;
+      background: url("../images/circle.png") no-repeat top center;
       display: inline-block;
       float: left; }
       .screen1_content .preferences .preference_item p {
@@ -156,7 +156,7 @@ body {
           text-transform: uppercase; }
 
 .screen2 {
-  background-image: url("./images/svg/Rectangle85.svg");
+  background-image: url("../images/svg/Rectangle85.svg");
   background-size: cover;
   margin-top: -43px;
   overflow: hidden;
@@ -175,7 +175,7 @@ body {
       line-height: 100%;
       letter-spacing: 0%; }
     .screen2 .screen2_1 h2::after {
-      content: url("./images/svg/Vector.svg");
+      content: url("../images/svg/Vector.svg");
       position: relative;
       top: -0.4em; }
     .screen2 .screen2_1 p {
@@ -245,12 +245,12 @@ body {
         width: 100%; }
 
 .screen3 {
-  background-image: url("./images/svg/Rectangle88.svg");
+  background-image: url("../images/svg/Rectangle88.svg");
   margin-top: -20px;
   background-size: cover; }
   .screen3 .screen3_background {
     margin-top: 40px;
-    background: url("./images/svg/backscreen3.svg") no-repeat right bottom;
+    background: url("../images/svg/backscreen3.svg") no-repeat right bottom;
     background-size: contain; }
     .screen3 .screen3_background .creative {
       padding-top: 60px;
@@ -336,11 +336,11 @@ body {
     width: 50%;
     background-image: url("/images/svg/Ellipse26.svg"), url("/images/svg/Ellipse27.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: 10% top, 105% 115%;
+    background-position: 10% top, 100% 100%;
     background-size: 30%; }
     .screen4 .img_sweaters img {
       width: 100%;
-      padding: 60px 10px 30px 95px; }
+      padding: 60px 70px 80px 95px; }
   .screen4 .screen4_content {
     width: 49%;
     display: -webkit-box;
@@ -367,7 +367,7 @@ body {
       padding-top: 20px; }
 
 .screen5 {
-  background-image: url("./images/svg/bgscreen5.svg");
+  background-image: url("../images/svg/bgscreen5.svg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover; }
@@ -380,7 +380,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url("./images/svg/bg5lamp.svg"), url("./images/svg/bg5rocket1.svg"), url("/images/svg/bg5rocket2.svg"), url("/images/svg/bgcurve.svg");
+    background-image: url("../images/svg/bg5lamp.svg"), url("../images/svg/bg5rocket1.svg"), url("../images/svg/bg5rocket2.svg"), url("../images/svg/bgcurve.svg");
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 75% top, 45% 40%, 95% 5%, 50% 65%; }
     .screen5 .screen5_content .screen5_text1 {
