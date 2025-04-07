@@ -38,7 +38,7 @@ body {
   background: linear-gradient(70deg, #9796F0, #FBC7D4); }
 
 .screen1 {
-  background: url("images/twogirls.png") no-repeat right bottom;
+  background: url("/images/twogirls.png") no-repeat right bottom;
   height: 750px; }
 
 .header {
