@@ -42,9 +42,38 @@ body {
   height: 750px; }
 
 .header {
-  padding: 20px 100px 0 100px; }
-  .header a {
+  padding: 20px 100px 20px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header .logo_link {
     width: 25%; }
+  .header .header_search input {
+    width: 350px;
+    height: 40px;
+    padding-left: 50px;
+    border: solid black 3px;
+    border-radius: 30px;
+    background: url("../images/svg/search.svg") no-repeat 10px center; }
+  .header .header_tel {
+    height: 40px;
+    width: 230px;
+    line-height: 40px;
+    background-color: #1FAB8A;
+    border-radius: 20px;
+    color: #EEF1F6;
+    text-decoration: none;
+    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%; }
 
 .menu {
   height: 100px;
@@ -537,16 +566,29 @@ footer {
         color: #8F90A6;
         padding-top: 10px;
         padding-bottom: 40px; }
-      footer .footer_content .footer_contact input {
-        border: solid black 2px;
-        border-radius: 15px;
-        height: 54px;
-        width: 277px;
-        padding-left: 10px;
-        font-family: Mulish, sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 23px;
-        letter-spacing: 0%; }
+      footer .footer_content .footer_contact form {
+        position: relative; }
+        footer .footer_content .footer_contact form .footer_tel {
+          border: solid black 2px;
+          border-radius: 15px;
+          height: 54px;
+          width: 277px;
+          padding-left: 10px;
+          font-family: Mulish, sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 23px;
+          letter-spacing: 0%; }
+        footer .footer_content .footer_contact form .footer_submit {
+          width: 34px;
+          height: 34px;
+          position: absolute;
+          left: 220px;
+          top: 10px;
+          background-color: #524983;
+          border-radius: 30px;
+          border: none;
+          color: white;
+          font-size: 16px; }
 
 /*# sourceMappingURL=style1.css.map */

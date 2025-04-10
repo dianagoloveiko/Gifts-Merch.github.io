@@ -40,10 +40,39 @@ body {
     height: 750px
   }
 .header {
-    padding: 20px 100px 0 100px;
-    a {
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    .logo_link {
         width: 25%;
     }
+    .header_search {
+      input {
+        width: 350px;
+        height: 40px;
+        padding-left: 50px;
+        border: solid black 3px;
+        border-radius: 30px;
+        background: url('../images/svg/search.svg') no-repeat 10px center;
+      }
+    }
+    .header_tel {
+      height: 40px;
+      width: 230px;
+      line-height: 40px;
+      background-color: #1FAB8A;
+      border-radius: 20px;
+      color: #EEF1F6;
+      text-decoration: none;
+      font-family: $f-family;
+      font-weight: 600;
+      font-size: $small-text;
+      letter-spacing: 0%;
+
+    }
+
 }
 .menu {
     height:100px;
@@ -586,7 +615,9 @@ color: $gray;
         padding-top: 10px;
         padding-bottom: 40px;
       }
-      input {
+      form {
+        position: relative;
+        .footer_tel {
         border: solid black 2px;
         border-radius: 15px;
         height: 54px;
@@ -597,8 +628,20 @@ color: $gray;
         font-size: 14px;
         line-height: 23px;
         letter-spacing: 0%;
-
+      }
+      .footer_submit {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 220px;
+        top: 10px;
+        background-color: #524983;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: $small-text;
       }
     }
    }
   }
+}

@@ -21,11 +21,15 @@
     <div class="wrapper_screen1">
     <div class="screen1">
    <header class="header">
-    <div >
-        <a  href="index.html">
+    
+        <a  class="lego_link" href="index.html">
             <img src="images/logo.png" alt="Логотип" title="Логотип">
         </a>
-    </div>
+        <div class="header_search">
+            <input type="text" placeholder="Поиск">
+        </div>
+        <a class="header_tel" href="tel:+380630130103">+380 630 130 103</a>
+    
     </header> 
     <div class="menu ">
           <nav >
@@ -201,7 +205,10 @@
         <div class="footer_contact">
             <h4>Связаться с менеджером</h4>
             <p>Есть вопрос на который не нашли ответ? Оставьте контакт и наш менеджер свяжеться с вами</p>
-            <input type="tel" name="phone" placeholder="Номер телефона">
+            <form method=get action='Search.php'>
+                <input class="footer_tel" type="tel" name="phone" placeholder="Номер телефона">
+                <input class="footer_submit" type="submit" value="&rarr;">
+            </form>
         </div>
     </div>
 </footer>
