@@ -730,12 +730,22 @@ color: $gray;
   .wrapper_screen1 {
     background: url('../images/svg/bgcolor.svg') no-repeat center -200px;
     background-size: cover;
-   
+    
    
   }
   .screen1 {
     background : url('../images/twogirls.png') no-repeat right 45%;
-    
+    .screen1_text {
+      h2 {
+        font-weight: 900;
+        font-size: 36px;
+    }
+
+    p {
+      font-size: 16px;
+  
+    }
+    }
     
     .header {
       padding: 20px 50px 20px 50px;
@@ -874,9 +884,10 @@ color: $gray;
       }
       .preferences{
         
-        padding: 200px 50px 10px 50px; 
+        padding: 150px 50px 10px 50px; 
         justify-content: space-around;
-        
+        background: url('../images/svg/bgwhite.svg') no-repeat left top;
+        background-size: cover;
       }
       
     }
@@ -893,8 +904,9 @@ color: $gray;
 
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
  .screen1 {
+  background : url('../images/svg/twogirls.svg') no-repeat right 80%;
   .header {
     .logo_link {
       width: 60%;
@@ -903,6 +915,41 @@ color: $gray;
       display: none;
     }
   }
+    .screen1_content {
+      .screen1_text { 
+      padding: 20px 20% 0 50px;
+      h2 {
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    p {
+      font-size: 15px;
+  
+    }
+      }
+      .menu_baner_adapt {
+        display: none;
+      }
+      .preferences {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 50px 40px 50px; 
+        .preference_item {
+          width: 150px;
+          height: 130px;
+          padding-bottom: 50px;
+          
+         
+          p {
+           font-size: 16px;
+          padding-top: 90px;
+          }
+        }
+          
+      }
+    }
  } 
 }
 

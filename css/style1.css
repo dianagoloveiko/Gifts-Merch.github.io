@@ -689,6 +689,11 @@ footer {
 
   .screen1 {
     background: url("../images/twogirls.png") no-repeat right 45%; }
+    .screen1 .screen1_text h2 {
+      font-weight: 900;
+      font-size: 36px; }
+    .screen1 .screen1_text p {
+      font-size: 16px; }
     .screen1 .header {
       padding: 20px 50px 20px 50px;
       background-color: #FAFBFD70; }
@@ -802,9 +807,11 @@ footer {
         padding-bottom: 120px;
         padding-left: 50px; }
     .screen1 .screen1_content .preferences {
-      padding: 200px 50px 10px 50px;
+      padding: 150px 50px 10px 50px;
       -ms-flex-pack: distribute;
-          justify-content: space-around; }
+          justify-content: space-around;
+      background: url("../images/svg/bgwhite.svg") no-repeat left top;
+      background-size: cover; }
 
   .screen2 {
     margin-top: 30px; }
@@ -812,11 +819,39 @@ footer {
       padding: 80px 50px 0 50px; }
     .screen2 .screen2_2 {
       padding: 20px 50px 0 50px; } }
-@media all and (max-width: 500px) {
-  .screen1 .header .logo_link {
-    width: 60%; }
-  .screen1 .header .header_tel {
-    display: none; } }
+@media all and (max-width: 600px) {
+  .screen1 {
+    background: url("../images/svg/twogirls.svg") no-repeat right 80%; }
+    .screen1 .header .logo_link {
+      width: 60%; }
+    .screen1 .header .header_tel {
+      display: none; }
+    .screen1 .screen1_content .screen1_text {
+      padding: 20px 20% 0 50px; }
+      .screen1 .screen1_content .screen1_text h2 {
+        font-weight: 900;
+        font-size: 24px; }
+      .screen1 .screen1_content .screen1_text p {
+        font-size: 15px; }
+    .screen1 .screen1_content .menu_baner_adapt {
+      display: none; }
+    .screen1 .screen1_content .preferences {
+      background: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 20px 50px 40px 50px; }
+      .screen1 .screen1_content .preferences .preference_item {
+        width: 150px;
+        height: 130px;
+        padding-bottom: 50px; }
+        .screen1 .screen1_content .preferences .preference_item p {
+          font-size: 16px;
+          padding-top: 90px; } }
 @-webkit-keyframes burgerAnimation {
   from {
     opacity: 0; }
