@@ -363,6 +363,8 @@ li {
                 justify-content: space-between; }
       .screen2 .screen2_2 .popular .thermo, .screen2 .screen2_2 .popular .t-shirt {
         width: 100%; }
+    .screen2 .screen2_2 .allgoods_adapt {
+      display: none; }
 
 .screen3 {
   background-image: url("../images/svg/Rectangle88.svg");
@@ -818,7 +820,63 @@ footer {
     .screen2 .screen2_1 {
       padding: 80px 50px 0 50px; }
     .screen2 .screen2_2 {
-      padding: 20px 50px 0 50px; } }
+      padding: 20px 50px 0 50px; }
+
+  .screen3 .screen3_background {
+    margin-top: 40px;
+    background: url("../images/svg/backscreen3.svg") no-repeat 135% bottom;
+    background-size: contain; }
+    .screen3 .screen3_background .creative {
+      margin-right: 20px;
+      font-size: 50px; }
+    .screen3 .screen3_background .screen3_content {
+      padding: 0px 50px 50px; }
+      .screen3 .screen3_background .screen3_content .screen3_text {
+        width: 100%; }
+        .screen3 .screen3_background .screen3_content .screen3_text h2 {
+          font-size: 36px; }
+      .screen3 .screen3_background .screen3_content .screen3_button button {
+        width: 230px;
+        height: 50px; }
+
+  .screen4 {
+    padding: 20px 50px 0 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .screen4 .img_sweaters {
+      width: 100%; }
+    .screen4 .screen4_content {
+      width: 100%;
+      padding-top: 0px; }
+
+  .screen5 .screen5_content {
+    padding: 150px 50px 150px 50px;
+    background-position: right top, 50% 39%, 5% 85%, 50% 50%; }
+    .screen5 .screen5_content .screen5_text1 {
+      width: 65%; }
+    .screen5 .screen5_content .screen5_form_text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-top: 120px; }
+      .screen5 .screen5_content .screen5_form_text .screen5_text2 {
+        padding-top: 20px; }
+      .screen5 .screen5_content .screen5_form_text form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .screen5 .screen5_content .screen5_form_text form input {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          width: 400px; }
+        .screen5 .screen5_content .screen5_form_text form input.button {
+          width: 280px; } }
 @media all and (max-width: 600px) {
   .screen1 {
     background: url("../images/svg/twogirls.svg") no-repeat right 80%; }
@@ -851,7 +909,119 @@ footer {
         padding-bottom: 50px; }
         .screen1 .screen1_content .preferences .preference_item p {
           font-size: 16px;
-          padding-top: 90px; } }
+          padding-top: 90px; }
+
+  .screen2 .screen2_1 h2 {
+    font-size: 24px; }
+  .screen2 .screen2_1 h2::after {
+    content: url("../images/svg/Vector.svg");
+    position: relative;
+    top: -0.4em; }
+  .screen2 .screen2_1 p {
+    font-size: 15px; }
+  .screen2 .screen2_1 .allgoods {
+    display: none; }
+  .screen2 .screen2_2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; }
+    .screen2 .screen2_2 .shoppers {
+      width: 100%; }
+      .screen2 .screen2_2 .shoppers figcaption {
+        display: none; }
+    .screen2 .screen2_2 .popular {
+      width: 100%; }
+    .screen2 .screen2_2 .allgoods_adapt {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 20px 50px 20px 50px; }
+
+  .screen3 {
+    background: url("../images/svg/Rectangle88.svg") no-repeat right 400px; }
+    .screen3 .screen3_background {
+      margin-top: 0;
+      padding-bottom: 400px;
+      background: url("../images/svg/backscreen3.svg") no-repeat center bottom;
+      background-size: contain; }
+      .screen3 .screen3_background .creative {
+        font-size: 36px;
+        text-align: center;
+        margin-right: 0;
+        padding-left: 0px; }
+      .screen3 .screen3_background .screen3_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center; }
+        .screen3 .screen3_background .screen3_content .screen3_text h2 {
+          font-size: 24px; }
+        .screen3 .screen3_background .screen3_content .screen3_text p {
+          font-size: 15px;
+          width: 100%; }
+        .screen3 .screen3_background .screen3_content .screen3_button {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          width: 100%;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .screen3 .screen3_background .screen3_content .screen3_button button {
+            margin-top: 10px;
+            margin-bottom: 10px; }
+
+  .screen4 .img_sweaters {
+    overflow: hidden; }
+  .screen4 .screen4_content .screen4_text {
+    text-align: center; }
+    .screen4 .screen4_content .screen4_text h3 {
+      font-size: 20px; }
+    .screen4 .screen4_content .screen4_text p {
+      font-size: 15px; }
+
+  .screen5 {
+    background-position: center center;
+    background-size: cover; }
+    .screen5 .screen5_content {
+      padding-top: 500px;
+      background-position: center top, right 37%, left 36%, center 55%; }
+      .screen5 .screen5_content .screen5_text1 {
+        width: 100%;
+        text-align: center; }
+        .screen5 .screen5_content .screen5_text1 h3 {
+          font-size: 24px; }
+        .screen5 .screen5_content .screen5_text1 p {
+          font-size: 15px; }
+      .screen5 .screen5_content .screen5_form_text {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 30px; }
+        .screen5 .screen5_content .screen5_form_text .screen5_text2 {
+          width: 100%;
+          text-align: center;
+          padding-top: 20px; }
+          .screen5 .screen5_content .screen5_form_text .screen5_text2 p {
+            font-size: 20px; }
+        .screen5 .screen5_content .screen5_form_text form {
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; } }
 @-webkit-keyframes burgerAnimation {
   from {
     opacity: 0; }

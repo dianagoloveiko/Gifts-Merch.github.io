@@ -375,6 +375,9 @@ color: $black;
       width: 100%;
      }
     }
+    .allgoods_adapt {
+      display: none;
+    }
   }
   }
   .screen3 {
@@ -901,6 +904,73 @@ color: $gray;
       padding: 20px 50px 0 50px;
     }
   }
+  .screen3 {
+    .screen3_background {
+      margin-top: 40px;
+      background: url('../images/svg/backscreen3.svg') no-repeat 135% bottom;
+   background-size: contain;
+   .creative {
+    margin-right: 20px;
+    font-size: 50px;
+   }
+   .screen3_content {
+    padding: 0px 50px 50px;
+    
+    .screen3_text {
+      width: 100%;
+      h2 {
+        font-size: $title;
+      }
+    }
+    .screen3_button {
+    button {
+      width: 230px;
+      height: 50px; 
+    }
+  }
+   }
+    }
+  }
+  .screen4 {
+    padding: 20px 50px 0 50px;
+    flex-direction: column;
+    .img_sweaters {
+      width: 100%;
+    }
+    .screen4_content {
+      width: 100%;
+      padding-top: 0px;
+    }
+  }
+  .screen5 {
+    .screen5_content {
+      padding: 150px 50px 150px 50px;
+      background-position: right top, 50% 39%, 5% 85%, 50% 50%;
+      .screen5_text1 {
+        width: 65%;
+      }
+      .screen5_form_text {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 120px;
+      
+        .screen5_text2 {
+          padding-top: 20px;
+        }
+        form {
+          flex-direction: column;
+          input {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 400px;
+          }
+          input.button {
+            width: 280px;
+          }
+        }
+      }
+    }
+  }
 
 }
 
@@ -951,6 +1021,133 @@ color: $gray;
       }
     }
  } 
+ .screen2 {
+  .screen2_1 {
+    h2 {
+      font-size: $small-title;
+    }
+    h2::after {
+      content: url('../images/svg/Vector.svg');
+      position: relative; top:-0.4em;
+    }
+    p {
+      font-size: 15px;
+    }
+    .allgoods {
+      display: none;
+    }
+  }
+  .screen2_2 {
+    flex-direction: column;
+    text-align: center;
+    .shoppers{
+      width: 100%;
+      figcaption {
+        display: none;
+      }
+    }
+    .popular {
+      width: 100%;
+    }
+    .allgoods_adapt {
+      display: flex;
+      justify-content: center;
+      padding: 20px 50px 20px 50px;
+    }
+  }
+ }
+ .screen3 {
+  background: url('../images/svg/Rectangle88.svg') no-repeat right 400px;
+  
+  .screen3_background {
+    margin-top: 0;
+    padding-bottom: 400px;
+    background: url('../images/svg/backscreen3.svg') no-repeat center bottom;
+    background-size: contain;
+    .creative {
+      font-size: 36px;
+      text-align: center;
+      margin-right: 0;
+      padding-left: 0px;
+    }
+    .screen3_content {
+      display: flex;
+    flex-direction: column;
+    text-align: center;
+      .screen3_text {
+      
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 15px;
+          width: 100%;
+        }
+      }
+      .screen3_button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        button {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+   }
+   }
+.screen4 {
+  .img_sweaters {
+    overflow: hidden;
+  }
+   
+   .screen4_content {
+    .screen4_text {
+      text-align: center;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+   }
+  }
+  .screen5 {
+    background-position:  center center;
+    background-size: cover;
+    .screen5_content {
+      padding-top: 500px;
+      background-position: center top, right 37%, left 36%, center 55%;
+      .screen5_text1 {
+        width: 100%;
+        text-align: center;
+        h3 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      .screen5_form_text {
+        flex-direction: column;
+        padding-top: 30px;
+        .screen5_text2 {
+          width: 100%;
+          text-align: center;
+          padding-top: 20px;
+          p {
+            font-size: 20px;
+          }
+        }
+        form {
+          align-items: center;
+        }
+      }
+
+    }
+  }
 }
 
 @keyframes burgerAnimation {
