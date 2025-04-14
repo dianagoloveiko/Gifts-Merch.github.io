@@ -29,9 +29,13 @@
             <input type="text" placeholder="Поиск">
         </div>
         <a class="header_tel" href="tel:+380630130103">+380 630 130 103</a>
-    
+        <!--Иконка бургер меню-->
+        <div class="burger">
+            <span></span>
+        </div>
     </header> 
     <div class="menu ">
+        <!--Меню сайта-->
           <nav >
             <ul class="menu_level1">
                 <li class="menu_nav_item">
@@ -73,11 +77,56 @@
                 </li>
             </ul>
           </nav>
+          
         <div class="menu_baner ">
             <p>Шопперы со скидкой - 25%</p>
         </div>
     </div>
-    
+    <!--Бургер меню при адаптиве-->
+    <div class="menu_burger">
+        <ul class="menu_level1">
+            <li class="menu_nav_item">
+                <a href="/" class="menu_link">Наборы</a>
+            </li>
+            <li class="menu_burger_allgoods menu_nav_item">
+                <a href="/" >Все товары</a>
+                <ul class="menu_burger_level2">
+                    <li><a class="a_level2" href="#">Одежда</a></li>
+                    <li><a class="a_level2" href="#">Сумки и аксессуры</a>
+                        <ul class="menu_burger_level3">
+                            <li><a href="#">Рюкзак</a></li>
+                            <li><a href="#">Сумка</a></li>
+                            <li><a href="#">Бананка</a></li>
+                            <li><a href="#">Шапка</a></li>
+                            <li><a href="#">Кепка</a></li>
+                            <li><a href="#">Маска для сна</a></li>
+                            <li><a href="#">Защитная маска</a></li>
+                            <li><a href="#">Значки/пины</a></li>
+                            <li><a href="#">Брелки</a></li>
+                            <li><a href="#">Обложка на паспорт</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a_level2" href="#">Для офиса</a></li>
+                    <li><a class="a_level2" href="#">Посуда</a></li>
+                    <li><a class="a_level2" href="#">Отдых</a></li>
+                    <li><a class="a_level2" href="#">Вкусности</a></li>
+                    <li><a class="a_level2" href="#">Электроника</a></li>
+                </ul>
+
+            </li>
+            <li class="menu_nav_item">
+                <a href="/" class="menu_link">Пошив</a>
+            </li>
+            <li class="menu_nav_item">
+                <a href="/" class="menu_link">Производство</a>
+            </li>
+            <li class="menu_nav_item">
+                <a href="/" class="menu_link">Информация</a>
+            </li>
+        </ul> 
+        <a href="mailto:example@gmail.com">example@gmail.com</a>
+        <a class="header_tel" href="tel:+380630130103">+380 630 130 103</a>      
+    </div>
     <div class="screen1_content">
        
         <div class="screen1_text">
@@ -228,5 +277,16 @@
         </div>
     </div>
 </footer>
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.menu_burger').classList.toggle('open');
+    })
+    document.querySelector('.menu_burger_allgoods').addEventListener('click', function() {
+       
+        document.querySelector('.menu_burger_level2').classList.toggle('open');
+    })
+    
+</script>
 </body>
 </html>
