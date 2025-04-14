@@ -725,7 +725,8 @@ footer {
       padding: 50px 15px 0 15px;
       text-align: center;
       -webkit-animation: burgerAnimation 0.4s;
-              animation: burgerAnimation 0.4s; }
+              animation: burgerAnimation 0.4s;
+      border-radius: 5px; }
       .screen1 .menu_burger ul li {
         padding: 20px; }
         .screen1 .menu_burger ul li a {
@@ -762,6 +763,30 @@ footer {
             font-weight: 700; }
           .screen1 .menu_burger .menu_burger_level2 li .menu_burger_level3 {
             display: none; }
+      .screen1 .menu_burger [href^="mailto"] {
+        font-family: Mulish, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        -webkit-text-decoration-style: solid;
+                text-decoration-style: solid;
+        text-decoration: underline;
+        color: #272525;
+        padding: 30px 5px 20px 5px; }
+      .screen1 .menu_burger [href^="tel"] {
+        height: 40px;
+        width: 220px;
+        line-height: 40px;
+        background-color: #1FAB8A;
+        border-radius: 20px;
+        color: #EEF1F6;
+        text-decoration: none;
+        font-family: Mulish, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0%;
+        margin-left: 15px; }
     .screen1 .screen1_content .screen1_text {
       padding: 50px 40% 0 50px; }
     .screen1 .screen1_content .menu_baner_adapt {

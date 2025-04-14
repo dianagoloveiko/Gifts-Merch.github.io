@@ -774,6 +774,7 @@ color: $gray;
       padding: 50px 15px 0 15px;
       text-align: center;
       animation: burgerAnimation 0.4s;
+      border-radius: 5px;
       ul {
         li {
           padding: 20px;
@@ -823,6 +824,32 @@ color: $gray;
         }
       
 
+      }
+      [href^="mailto"] {
+        font-family: $f-family;
+        font-weight: 400;
+        font-size: $small-text;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-decoration-style: solid;
+        text-decoration: underline;
+        color: $black;
+        padding: 30px 5px 20px 5px;
+      }
+      [href^="tel"] {
+        height: 40px;
+      width: 220px;
+      line-height: 40px;
+      background-color: #1FAB8A;
+      border-radius: 20px;
+      color: #EEF1F6;
+      text-decoration: none;
+      font-family: $f-family;
+      font-weight: 600;
+      font-size: $small-text;
+      letter-spacing: 0%;
+      margin-left: 15px;
+      
       }
 
     }
