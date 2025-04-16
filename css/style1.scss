@@ -650,14 +650,25 @@ color: $gray;
           text-decoration-style: solid;
           color: $black;
         }
+        .footer_icons {
+          padding-top: 20px;
+          svg {
+            padding-right: 10px;
+          }
+        }
       }
     }
-    .footer_links {
+    .footer_links_contact {
       display: flex;
       justify-content: space-between;
-      width: 30%;
-      padding-left: 30px;
-      padding-right: 30px;
+    .footer_links {
+      display: flex;
+      justify-content:space-between;
+      
+      padding-left: 50px;
+      padding-right: 50px;
+      ul {
+        margin-right: 60px;
       li {
         list-style-type: none;
         font-family: $f-family;
@@ -679,8 +690,9 @@ color: $gray;
         }
       }
     }
+    }
     .footer_contact {
-      width: 30%;
+      
       h4 {
         font-family: $f-family;
         font-weight: 600;
@@ -726,6 +738,7 @@ color: $gray;
       }
     }
    }
+  }
   }
 }
 
@@ -971,10 +984,57 @@ color: $gray;
       }
     }
   }
+  footer {
+    .footer_content {
+      padding: 100px 50px 30px 50px;
+      flex-direction: column;
+      .footer_part1 {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        .footer_logo {
+          width: 60%;
+           
+        }
+      }
+      .footer_links_contact {
+        padding-top: 60px;
+        .footer_links {
+          padding-left: 0px;
+          padding-right: 0px;
+          ul {
+            margin-right: 10px;
+            li {
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+          
+        }
+        .footer_contact {
+          p {
+            width: 240px;
+          }
+          form {
+            .footer_tel {
+              width: 240px;
+              
+            }
+            .footer_submit {
+              
+      left: 190px;
+      
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 605px) {
  .screen1 {
   background : url('../images/svg/twogirls.svg') no-repeat right 80%;
   .header {
@@ -1146,6 +1206,36 @@ color: $gray;
         }
       }
 
+    }
+  }
+  footer {
+    .footer_content {
+      .footer_part1 {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        .footer_logo {
+          width: 100%;
+        }
+      }
+      .footer_links_contact {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        .footer_contact {
+          p { width: 100%; }
+          form {
+            position: relative;
+            width: 250px;
+            .footer_submit {
+              position: absolute;
+             right: 0px;
+            }
+          }
+          
+        }
+      }
     }
   }
 }
