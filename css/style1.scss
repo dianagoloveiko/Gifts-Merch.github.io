@@ -1039,7 +1039,7 @@ color: $gray;
 
 @media all and (max-width: 605px) {
  .screen1 {
-  background: url('../images/svg/twogirls.svg') no-repeat right 50%;
+  background: url('../images/svg/twogirls.svg') no-repeat right 70%;
   
 
   .header {
@@ -1089,7 +1089,7 @@ color: $gray;
  .screen2 {
   .screen2_1 {
     h2 {
-      font-size: $small-title;
+      font-size: 20px;
     }
     h2::after {
       content: url('../images/svg/Vector.svg');
@@ -1126,7 +1126,7 @@ color: $gray;
   
   .screen3_background {
     margin-top: 0;
-    padding-bottom: 400px;
+    padding-bottom: 300px;
     background: url('../images/svg/backscreen3.svg') no-repeat center bottom;
     background-size: contain;
     .creative {
@@ -1169,12 +1169,14 @@ color: $gray;
   }
   .img_sweaters_adapt {
     display: inline-block;
+    width: 100%;
     margin: 0 auto;
     background-image: url('../images/svg/Ellipse26.svg'), url('../images/svg/Ellipse27.svg');  
         background-repeat:  no-repeat, no-repeat;
         background-position: left top, 100% 100%;
         background-size: 30%;
         img {
+          width: 100%;
           padding: 30px;
         }
   }
@@ -1223,11 +1225,20 @@ color: $gray;
           input {
             margin-top: 20px;
             margin-bottom: 20px;
-            width: 350px;
+            width: 250px;
+          }
+          input.button {
+            width: 250px;
           }
         }
       }
 
+    }
+  }
+  .screen6 {
+    width: 100%;
+    .screen6_slider {
+      width: 100%;
     }
   }
   footer {
