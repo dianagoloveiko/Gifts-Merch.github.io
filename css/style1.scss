@@ -492,6 +492,9 @@ color: $gray;
         img {width: 100%;
         padding: 60px 70px 80px 95px;}
       }
+      .img_sweaters_adapt {
+        display: none;
+      }
       .screen4_content {
         width: 49%;
         display: flex;
@@ -601,7 +604,7 @@ color: $gray;
     }
   }
   .screen6 {
-
+     padding: 10px 100px 10px 100px;
   }
   footer {
     background: url('../images/svg/bgfooter.svg') no-repeat left top;
@@ -750,7 +753,7 @@ color: $gray;
    
   }
   .screen1 {
-    background : url('../images/twogirls.png') no-repeat right 45%;
+    background : url('../images/twogirls.png') no-repeat right 20%;
     .screen1_text {
       h2 {
         font-weight: 900;
@@ -902,7 +905,7 @@ color: $gray;
         
         padding: 150px 50px 10px 50px; 
         justify-content: space-around;
-        background: url('../images/svg/bgwhite.svg') no-repeat left top;
+        background: url('../images/svg/bgwhite.svg') no-repeat center top;
         background-size: cover;
       }
       
@@ -1036,7 +1039,9 @@ color: $gray;
 
 @media all and (max-width: 605px) {
  .screen1 {
-  background : url('../images/svg/twogirls.svg') no-repeat right 80%;
+  background: url('../images/svg/twogirls.svg') no-repeat right 50%;
+  
+
   .header {
     .logo_link {
       width: 60%;
@@ -1125,6 +1130,7 @@ color: $gray;
     background: url('../images/svg/backscreen3.svg') no-repeat center bottom;
     background-size: contain;
     .creative {
+      width: 80%;
       font-size: 36px;
       text-align: center;
       margin-right: 0;
@@ -1159,7 +1165,18 @@ color: $gray;
    }
 .screen4 {
   .img_sweaters {
-    overflow: hidden;
+    display: none;
+  }
+  .img_sweaters_adapt {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url('../images/svg/Ellipse26.svg'), url('../images/svg/Ellipse27.svg');  
+        background-repeat:  no-repeat, no-repeat;
+        background-position: left top, 100% 100%;
+        background-size: 30%;
+        img {
+          padding: 30px;
+        }
   }
    
    .screen4_content {
@@ -1203,6 +1220,11 @@ color: $gray;
         }
         form {
           align-items: center;
+          input {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 350px;
+          }
         }
       }
 
