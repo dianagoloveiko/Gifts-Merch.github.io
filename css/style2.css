@@ -286,7 +286,10 @@ li {
           letter-spacing: 0%;
           text-align: center;
           vertical-align: middle;
-          border: none; }
+          border: none;
+          cursor: pointer; }
+        .screen1 .container .screen1_content .screen1_button button:hover {
+          background-color: #309F85; }
         .screen1 .container .screen1_content .screen1_button p {
           height: 60px;
           font-family: Mulish, sans-serif;
