@@ -757,6 +757,37 @@ footer {
       font-size: 16px;
       letter-spacing: 0%;
       margin-left: 15px; }
+  .screen1 .container {
+    padding: 30px 50px 100px 50px; }
+    .screen1 .container .screen1_content {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .screen1 .container .screen1_content .breadcrumbs {
+        display: none; }
+      .screen1 .container .screen1_content .screen1_button {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+
+  .screen2 {
+    background: url("../images/svg/page_sewing/bgwhite2.svg") no-repeat center top; }
+    .screen2 .screen2_content {
+      padding: 160px 50px 20px 50px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .screen2 .screen2_content .screen2_information {
+        width: 100%; }
+      .screen2 .screen2_content .screen2_image {
+        width: 100%; }
+        .screen2 .screen2_content .screen2_image img {
+          height: 500px;
+          overflow: hidden;
+          -o-object-fit: cover;
+             object-fit: cover; }
 
   .screen5 .screen5_content {
     padding: 150px 50px 150px 50px;
@@ -822,6 +853,44 @@ footer {
     width: 60%; }
   .screen1 header .header_tel {
     display: none; }
+  .screen1 .container {
+    background-image: url("../images/svg/page_sewing/bgscreen1.svg");
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-size: 80%; }
+    .screen1 .container .screen1_content {
+      text-align: center;
+      width: 100%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .screen1 .container .screen1_content h1 {
+        font-size: 36px; }
+      .screen1 .container .screen1_content p {
+        font-size: 15px; }
+      .screen1 .container .screen1_content .screen1_content_container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .screen1 .container .screen1_content .screen1_content_container .size_choose_size {
+          padding-right: 0; }
+          .screen1 .container .screen1_content .screen1_content_container .size_choose_size .size {
+            display: none; }
+          .screen1 .container .screen1_content .screen1_content_container .size_choose_size .choose_size {
+            width: 200px;
+            margin-top: 300px; }
+            .screen1 .container .screen1_content .screen1_content_container .size_choose_size .choose_size span {
+              color: white; }
+      .screen1 .container .screen1_content .screen1_button {
+        padding-top: 10px; }
+
+  .screen2 {
+    margin-top: -250px; }
 
   .screen5 {
     background-position: center center;

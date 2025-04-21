@@ -699,6 +699,7 @@ footer {
 
 
 @media all and (max-width: 1200px) {
+  
   .screen1 {
   header {
     padding: 20px 50px 20px 50px;
@@ -816,6 +817,37 @@ footer {
      }
 
    }
+   .container { 
+    padding: 30px 50px 100px 50px;
+
+   .screen1_content {
+    align-items: flex-start;
+    .breadcrumbs {
+      display: none;
+    }
+    .screen1_button {
+      flex-direction: column;
+    }
+   }
+  }
+  }
+  .screen2 {
+    background: url('../images/svg/page_sewing/bgwhite2.svg') no-repeat center top;
+    .screen2_content {
+      padding: 160px 50px 20px 50px;
+      flex-direction: column;
+      .screen2_information {
+        width: 100%;
+      }
+      .screen2_image {
+        width: 100%;
+        img {
+          height: 500px;
+          overflow: hidden;
+          object-fit: cover;
+        }
+      }
+    }
   }
   .screen5 {
     .screen5_content {
@@ -904,6 +936,44 @@ footer {
       display: none;
     }
   }
+  .container {
+    background-image:  url('../images/svg/page_sewing/bgscreen1.svg') ;
+  background-repeat:   no-repeat ;
+  background-position:  center 60% ;
+  background-size:  80%;
+    .screen1_content {
+      text-align: center;
+      width: 100%;
+      align-items: center;
+      h1 {font-size: 36px;}
+      p {font-size: 15px;}
+      .screen1_content_container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+        .size_choose_size {
+          padding-right: 0;
+          .size {display: none;}
+          .choose_size { 
+            width: 200px;
+            margin-top: 300px;
+            span {
+              color: white;
+            }
+          }
+        }
+       
+      }
+      .screen1_button {
+        padding-top: 10px;
+      }
+    }
+    
+  }
+ }
+ .screen2 {
+  margin-top: -250px;
  }
  .screen5 {
   background-position:  center center;
