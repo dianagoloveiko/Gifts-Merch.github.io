@@ -891,6 +891,8 @@ footer {
 
   .screen2 {
     margin-top: -250px; }
+    .screen2 .screen2_content .screen2_information .info_item h2 {
+      font-size: 24px; }
 
   .screen5 {
     background-position: center center;
