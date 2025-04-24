@@ -494,6 +494,147 @@ li {
       background-color: transparent;
       border: none;
       cursor: pointer; }
+.screen2 .screen2_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 100px 30px 100px; }
+  .screen2 .screen2_info div:last-child {
+    padding-right: 0; }
+  .screen2 .screen2_info div {
+    padding-right: 80px; }
+    .screen2 .screen2_info div h3 {
+      font-family: Mulish, sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 130%;
+      letter-spacing: 0%; }
+    .screen2 .screen2_info div p {
+      font-family: Mulish, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0%;
+      color: #454747;
+      padding-top: 10px; }
+      .screen2 .screen2_info div p span {
+        font-weight: 600; }
+
+.screen3 {
+  background-image: url("../images/svg/Rectangle88.svg");
+  margin-top: -20px;
+  background-size: cover; }
+  .screen3 .screen3_background {
+    margin-top: 40px;
+    background: url("../images/svg/backscreen3.svg") no-repeat right bottom;
+    background-size: contain; }
+    .screen3 .screen3_background .creative {
+      padding-top: 60px;
+      padding-left: 120px;
+      -webkit-transform: rotate(-3deg);
+              transform: rotate(-3deg);
+      font-family: Pangolin;
+      margin-right: 20px;
+      font-weight: 400;
+      font-size: 69.73px;
+      line-height: 100%;
+      letter-spacing: 0%; }
+      .screen3 .screen3_background .creative .C {
+        color: #8B0000; }
+      .screen3 .screen3_background .creative .R {
+        color: #1E90FF; }
+      .screen3 .screen3_background .creative .E {
+        color: #000080; }
+      .screen3 .screen3_background .creative .A {
+        color: #4B3D52; }
+      .screen3 .screen3_background .creative .T {
+        color: #000000; }
+      .screen3 .screen3_background .creative .I {
+        color: #8B0000; }
+      .screen3 .screen3_background .creative .V {
+        color: #FFFF00; }
+      .screen3 .screen3_background .creative .E {
+        color: #32CD32; }
+    .screen3 .screen3_background .screen3_content {
+      padding: 0px 40% 0px 100px; }
+      .screen3 .screen3_background .screen3_content .screen3_text {
+        width: 100%;
+        margin-top: 40px; }
+        .screen3 .screen3_background .screen3_content .screen3_text h2 {
+          font-family: Mulish, sans-serif;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 100%;
+          letter-spacing: 0%; }
+        .screen3 .screen3_background .screen3_content .screen3_text p {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          width: 60%;
+          font-family: Mulish, sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          letter-spacing: 6.5%;
+          color: #454747; }
+      .screen3 .screen3_background .screen3_content .screen3_form_text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .screen3 .screen3_background .screen3_content .screen3_form_text .screen3_text2 {
+          width: 40%; }
+          .screen3 .screen3_background .screen3_content .screen3_form_text .screen3_text2 p {
+            font-family: Mulish, sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%; }
+            .screen3 .screen3_background .screen3_content .screen3_form_text .screen3_text2 p span {
+              color: #1FAB8A; }
+        .screen3 .screen3_background .screen3_content .screen3_form_text form {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          width: 45%; }
+          .screen3 .screen3_background .screen3_content .screen3_form_text form input {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            background: rgba(255, 255, 255, 0);
+            width: 300px;
+            height: 23px;
+            font-family: Mulish, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #454747;
+            margin-top: 20px;
+            margin-bottom: 20px; }
+          .screen3 .screen3_background .screen3_content .screen3_form_text form input.button {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
+            background: #1FAB8A;
+            width: 280px;
+            height: 60px;
+            border-radius: 30px;
+            position: relative;
+            top: -15px;
+            color: white; }
 
 @media all and (max-width: 1200px) {
   .screen1 header {
@@ -607,17 +748,36 @@ li {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
       .screen2 .screen2_content .sets_1_4 .list_of_sets .item {
-        width: 45%; }
+        width: 41%; }
     .screen2 .screen2_content .sets_5_8 .list_of_sets {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
       .screen2 .screen2_content .sets_5_8 .list_of_sets .item {
-        width: 45%; }
+        width: 41%; }
     .screen2 .screen2_content .sets_9_12 .list_of_sets {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
       .screen2 .screen2_content .sets_9_12 .list_of_sets .item {
-        width: 45%; } }
+        width: 41%; }
+  .screen2 .screen2_info {
+    display: none; }
+
+  .screen3 .screen3_background {
+    background: url("../images/svg/backscreen3.svg") no-repeat 110% top;
+    background-size: 40%; }
+    .screen3 .screen3_background .creative {
+      padding-left: 20%;
+      font-size: 55px; }
+    .screen3 .screen3_background .screen3_content {
+      padding: 0px 50px 0px 50px; }
+      .screen3 .screen3_background .screen3_content .screen3_text {
+        padding-right: 30%; }
+        .screen3 .screen3_background .screen3_content .screen3_text p {
+          width: 100%; }
+      .screen3 .screen3_background .screen3_content .screen3_form_text form input {
+        width: 100%; }
+      .screen3 .screen3_background .screen3_content .screen3_form_text form input.button {
+        width: 250px; } }
 @media all and (max-width: 605px) {
   .screen1 header .logo_link {
     width: 60%; }
@@ -674,7 +834,46 @@ li {
         -ms-flex-align: center;
             align-items: center; }
     .screen2 .screen2_content .sets_9_12 .list_of_sets .item {
-      width: 90%; } }
+      width: 90%; }
+
+  .screen3 {
+    background-image: url("../images/svg/Rectangle88.svg");
+    margin-top: -20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 90%; }
+    .screen3 .screen3_background {
+      background: url("../images/svg/backscreen3.svg") no-repeat center bottom;
+      background-size: 80%; }
+      .screen3 .screen3_background .creative {
+        padding-left: 20%;
+        font-size: 36px; }
+      .screen3 .screen3_background .screen3_content {
+        text-align: center;
+        padding-bottom: 300px; }
+        .screen3 .screen3_background .screen3_content .screen3_text {
+          width: 100%;
+          padding-right: 0px; }
+          .screen3 .screen3_background .screen3_content .screen3_text h2 {
+            font-size: 24px; }
+          .screen3 .screen3_background .screen3_content .screen3_text p {
+            font-size: 15px; }
+        .screen3 .screen3_background .screen3_content .screen3_form_text {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          text-align: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .screen3 .screen3_background .screen3_content .screen3_form_text .screen3_text2 {
+            width: 90%; }
+            .screen3 .screen3_background .screen3_content .screen3_form_text .screen3_text2 p {
+              font-size: 20px; }
+          .screen3 .screen3_background .screen3_content .screen3_form_text form {
+            width: 90%;
+            text-align: center; } }
 @-webkit-keyframes burgerAnimation {
   from {
     opacity: 0; }

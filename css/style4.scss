@@ -516,6 +516,163 @@ li {
       
     }
   }
+  .screen2_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+    div:last-child {padding-right: 0;}
+    div {
+      padding-right: 80px;
+
+    h3 {
+      font-family: $f-family;
+      font-weight: 600;
+      font-size: $small-title;
+      line-height: 130%;
+      letter-spacing: 0%;
+    }
+    p {
+      font-family: $f-family;
+      font-weight: 400;
+      font-size: $small-text;
+      line-height: 130%;
+      letter-spacing: 0%;
+      color: #454747;
+      padding-top: 10px;
+      
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  }
+}
+.screen3 {
+  background-image: url('../images/svg/Rectangle88.svg');
+  margin-top: -20px;
+  background-size: cover;
+  .screen3_background {
+    margin-top: 40px;
+    background: url('../images/svg/backscreen3.svg') no-repeat right bottom;
+ background-size: contain;
+  .creative {
+    padding-top: 60px;
+    padding-left: 120px;
+    transform: rotate(-3deg);
+    font-family: Pangolin;
+    margin-right: 20px;
+font-weight: 400;
+font-size: 69.73px;
+line-height: 100%;
+letter-spacing: 0%;
+
+.C {
+color:#8B0000;
+}
+.R {
+color:#1E90FF;
+}
+.E {
+color:#000080;
+}
+.A {
+color:#4B3D52;
+}
+.T {
+color:#000000;
+}
+.I {
+color:#8B0000;
+}
+.V {
+color:#FFFF00;
+}
+.E {
+color:#32CD32;
+}
+  }
+  .screen3_content {
+    padding: 0px 40% 0px 100px;
+    .screen3_text {
+      width: 100%;
+      margin-top: 40px;
+      h2 {
+        font-family: $f-family;
+font-weight: 700;
+font-size: $big-title;
+line-height: 100%;
+letter-spacing: 0%;
+      }
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+        font-family: $f-family;
+font-weight: 400;
+font-size: $text;
+letter-spacing: 6.5%;
+color: $gray;
+      }
+    }
+    .screen3_form_text {
+      
+      display: flex;
+      padding: 0px;
+      justify-content: space-between;
+      .screen3_text2 {
+        width: 40%;
+        p {
+          font-family: $f-family;
+          font-weight: 600;
+          font-size: $small-title;
+          line-height: 100%;
+          letter-spacing: 0%;
+          
+          span {
+            color:#1FAB8A;
+          }
+        }
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45%;
+       input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background: rgba(255, 255, 255, 0);
+        width: 300px;
+        height: 23px;
+        font-family: $f-family;
+        font-weight: 400;
+        font-size: $small-text;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: $gray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       input.button {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none ;
+        background: #1FAB8A;
+        width: 280px;
+        height: 60px;
+        border-radius: 30px;
+        position: relative;
+        top: -15px;
+        color: white;
+        
+
+       }
+      }
+    }
+  }
+  }
 }
 
 @media all and (max-width: 1200px) {
@@ -652,7 +809,7 @@ li {
         .list_of_sets {
           flex-wrap: wrap;
           .item {
-            width: 45%;
+            width: 41%;
           }
         }
       }
@@ -660,7 +817,7 @@ li {
         .list_of_sets {
           flex-wrap: wrap;
           .item {
-            width: 45%;
+            width: 41%;
           }
         }
       }
@@ -668,12 +825,45 @@ li {
         .list_of_sets {
           flex-wrap: wrap;
           .item {
-            width: 45%;
+            width: 41%;
           }
         }
       }
   }
+  .screen2_info {
+    display: none;
+  }
 }
+.screen3 {
+  .screen3_background {
+    background: url('../images/svg/backscreen3.svg') no-repeat 110% top;
+ background-size: 40%;
+    .creative {
+      padding-left: 20%;
+      font-size: 55px;
+      
+    }
+    .screen3_content {
+      padding: 0px 50px 0px 50px;
+      .screen3_text {
+        padding-right: 30%;
+        p { width: 100%;}
+      }
+      .screen3_form_text {
+        
+        form {
+          input {
+            width: 100%;
+          }
+          input.button {
+            width: 250px;
+          }
+        }
+      }
+    }
+  }
+}
+
 }
 
 @media all and (max-width: 605px) {
@@ -735,10 +925,47 @@ li {
     }
   }
  }
+ .screen3 {
+  background-image: url('../images/svg/Rectangle88.svg');
+  margin-top: -20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  .screen3_background {
+    background: url('../images/svg/backscreen3.svg') no-repeat center bottom;
+ background-size: 80%;
+ .creative {
+  padding-left: 20%;
+  font-size: 36px;
+  
 }
-
+     .screen3_content {
+      text-align: center;
+      padding-bottom: 300px;
+      .screen3_text {
+        width: 100%;
+        padding-right: 0px;
+        h2 { font-size: 24px;}
+        p {font-size: 15px;}
+      }
+      .screen3_form_text {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .screen3_text2 {
+          width: 90%;
+          p { font-size: 20px;}
+        }
+        form {
+          width: 90%;
+          text-align: center; 
+      }
+     }
+  }
+ }
+ }
+}
 @keyframes burgerAnimation {
     from {opacity: (0);}
     to {opacity: (1);}
   }
-
