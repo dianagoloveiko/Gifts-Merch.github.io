@@ -285,6 +285,82 @@ li {
   }
      }
 }
+.screen2 {
+  padding: 30px 100px 30px 100px;
+  display: flex;
+  flex-direction: column;
+  .screen2_content1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    div:last-child {padding-right: 0;}
+    div {
+      padding-right: 80px;
+
+    h3 {
+      font-family: $f-family;
+      font-weight: 600;
+      font-size: $small-title;
+      line-height: 130%;
+      letter-spacing: 0%;
+    }
+    p {
+      font-family: $f-family;
+      font-weight: 400;
+      font-size: $small-text;
+      line-height: 130%;
+      letter-spacing: 0%;
+      color: #454747;
+      padding-top: 10px;
+      
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  }
+  .screen2_content2 {
+    width: 100%;
+   background: url('../images/svg/page_info/back2.svg') no-repeat right center;
+    background-size: 45%;
+    margin-top: 40px;
+    h2 {
+      font-family: $f-family;
+      font-weight: 700;
+      font-size: $big-title;
+      line-height: 105%;
+      letter-spacing: 0%;
+      margin-bottom: 20px;
+    }
+  .info_item {
+    width: 50%;
+    background: url('../images/svg/page_hudi/Rectangle19.svg') no-repeat left bottom;
+    margin-bottom: 40px;
+      h2 {
+        font-family: $f-family;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        color: #3C336C;
+      }
+      .Moreinfo{
+          display: none;
+          font-family: $f-family;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 130%;
+          letter-spacing: 0%;
+          color: #454747;
+      }
+      button {
+        
+        border: none;
+        background-color: white;
+      }
+  }
+}
+}
 
 @media all and (max-width: 1200px) {
   .screen1 {
@@ -421,6 +497,21 @@ li {
       }
      }
   }
+  .screen2 {
+    padding: 30px 50px 30px 50px;
+    .screen2_content1 {
+      flex-direction: column;
+    div {
+      padding-top: 40px;
+    }
+    }
+    .screen2_content2 {
+      background: none;
+      .info_item {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media all and (max-width: 605px) {
@@ -450,6 +541,19 @@ li {
       }
       .screen1_links {
         display: none;
+      }
+    }
+  }
+  .screen2 {
+    .screen2_content2 {
+      h2 {
+        text-align: center;
+        font-size: 28px;
+      }
+      .info_item {
+        h2 {
+          font-size: 24px;
+        }
       }
     }
   }
